@@ -32,11 +32,10 @@ public class Endereco {
     @Column(nullable = false, length = 100)
     private String bairro;
 
-
-    @Column(nullable = false, length = 60)
+    @Column(nullable = false, length = 100)
     private String cidade;
 
-    @Column(nullable = false, name = "uf", length = 5)
+    @Column(nullable = false, length = 5)
     private String estado;
 
     @Column(nullable = false, length = 10)
